@@ -1,2 +1,2 @@
-# FIngerPrintAnalysis
+# FingerPrintAnalysis
 Third project for biometry 
