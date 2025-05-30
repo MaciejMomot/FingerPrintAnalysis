@@ -1,0 +1,137 @@
+RAPORT ANALIZY PORÓWNYWANIA ODCISKÓW PALCÓW
+================================================================================
+
+
+1. PODSUMOWANIE DANYCH:
+----------------------------------------
+Liczba różnych palców: 10
+Całkowita liczba obrazów: 50
+
+Rozkład obrazów na palec:
+  l-1: 5 obrazów
+  l-2: 5 obrazów
+  l-3: 5 obrazów
+  l-4: 5 obrazów
+  l-5: 5 obrazów
+  r-1: 5 obrazów
+  r-2: 5 obrazów
+  r-3: 5 obrazów
+  r-4: 5 obrazów
+  r-5: 5 obrazów
+
+2. ANALIZA MINUCJI:
+----------------------------------------
+
+Metoda K3M:
+  l-1:
+    Bifurkacje: 39.8 ± 10.3
+    Końcówki: 278.8 ± 25.0
+    Razem: 318.6
+  l-2:
+    Bifurkacje: 59.6 ± 10.9
+    Końcówki: 160.0 ± 20.8
+    Razem: 219.6
+  l-3:
+    Bifurkacje: 250.2 ± 59.3
+    Końcówki: 46.6 ± 3.9
+    Razem: 296.8
+  l-4:
+    Bifurkacje: 385.0 ± 50.9
+    Końcówki: 67.0 ± 17.7
+    Razem: 452.0
+  l-5:
+    Bifurkacje: 312.8 ± 9.5
+    Końcówki: 67.2 ± 8.8
+    Razem: 380.0
+  r-1:
+    Bifurkacje: 59.0 ± 14.0
+    Końcówki: 242.0 ± 41.4
+    Razem: 301.0
+  r-2:
+    Bifurkacje: 49.6 ± 8.1
+    Końcówki: 169.8 ± 24.7
+    Razem: 219.4
+  r-3:
+    Bifurkacje: 127.0 ± 19.0
+    Końcówki: 84.4 ± 23.1
+    Razem: 211.4
+  r-4:
+    Bifurkacje: 322.0 ± 71.2
+    Końcówki: 81.4 ± 26.8
+    Razem: 403.4
+  r-5:
+    Bifurkacje: 89.6 ± 17.2
+    Końcówki: 123.0 ± 15.3
+    Razem: 212.6
+
+Metoda MORPH:
+  l-1:
+    Bifurkacje: 23.2 ± 4.9
+    Końcówki: 416.2 ± 16.2
+    Razem: 439.4
+  l-2:
+    Bifurkacje: 31.4 ± 8.0
+    Końcówki: 253.8 ± 25.2
+    Razem: 285.2
+  l-3:
+    Bifurkacje: 230.6 ± 57.4
+    Końcówki: 80.2 ± 6.7
+    Razem: 310.8
+  l-4:
+    Bifurkacje: 362.8 ± 40.2
+    Końcówki: 90.0 ± 22.0
+    Razem: 452.8
+  l-5:
+    Bifurkacje: 275.8 ± 7.1
+    Końcówki: 105.0 ± 15.5
+    Razem: 380.8
+  r-1:
+    Bifurkacje: 26.6 ± 12.6
+    Końcówki: 362.2 ± 66.2
+    Razem: 388.8
+  r-2:
+    Bifurkacje: 22.8 ± 9.3
+    Końcówki: 262.8 ± 31.9
+    Razem: 285.6
+  r-3:
+    Bifurkacje: 115.6 ± 20.4
+    Końcówki: 134.8 ± 32.2
+    Razem: 250.4
+  r-4:
+    Bifurkacje: 288.0 ± 68.5
+    Końcówki: 135.8 ± 36.9
+    Razem: 423.8
+  r-5:
+    Bifurkacje: 68.8 ± 13.0
+    Końcówki: 181.2 ± 22.9
+    Razem: 250.0
+
+3. ANALIZA PODOBIEŃSTWA:
+----------------------------------------
+Średnie podobieństwo wewnętrzne (ten sam palec): 0.580 ± 0.060
+Średnie podobieństwo między różnymi palcami: 0.406 ± 0.061
+Współczynnik separacji: 0.43
+
+Najlepsze dopasowania między różnymi palcami:
+  l-4 vs l-5: 0.525
+  l-3 vs r-4: 0.518
+  l-5 vs r-4: 0.517
+
+Najgorsze dopasowania między różnymi palcami:
+  l-2 vs l-4: 0.323
+  l-4 vs r-2: 0.316
+  l-4 vs r-5: 0.306
+
+4. TEST KLASYFIKACJI:
+----------------------------------------
+Najlepszy próg: 0.545
+Dokładność: 1.000 (100.0%)
+Precyzja: 1.000
+Czułość (Recall): 1.000
+F1-Score: 1.000
+
+Macierz konfuzji:
+              Przewidywane
+              Różne  Ten sam
+Rzeczywiste Różne     90       0
+           Ten sam     0      10
